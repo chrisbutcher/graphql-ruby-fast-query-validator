@@ -1,0 +1,13 @@
+[package]
+name = "graphql-rust-ruby"
+version = "0.1.0"
+authors = ["Christopher Butcher <cbutcher@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "graphql_query_validator"
+crate-type = ["dylib"]
+
+[dependencies]
+libc = "0.2.60"
+graphql-parser = "0.2.3"
