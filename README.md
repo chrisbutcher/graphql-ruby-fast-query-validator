@@ -11,3 +11,9 @@ input = "foobar"
 output = GraphQLQueryValidator.is_query_valid(input)
 # => false
 ```
+
+# Credits / dependencies
+
+* https://github.com/graphql-rust/graphql-parser
+* https://github.com/Marwes/combine
+* https://github.com/ffi/ffi

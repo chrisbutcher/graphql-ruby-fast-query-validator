@@ -4,7 +4,7 @@ else
     EXT := so
 endif
 
-# TODO make release lib actions
+# TODO: target/release
 
 all: target/debug/libgraphql_query_validator.$(EXT)
 	ruby src/main.rb
